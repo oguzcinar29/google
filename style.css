@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    height: 50vh;
+    
+}
+.top-box{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3px;
+    padding: 20px;
+    gap: 25px;
+}
+.lft:hover{
+    background-color: gray;
+    border-radius: 50%;
+    height: 30px;
+}
+.right:hover{
+    background-color: gainsboro;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+.top-text a{
+    text-decoration: none;
+    color: #202124;
+}
+
+.img1{
+    width: 30px;
+    height: 30px;
+}
+.circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.body-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo{
+    height: 110px;
+}
+.second-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    min-width: 500px;
+    gap: 15px;
+}
+.btn:hover{
+    border: 1px solid gainsboro;
+}
+.second-box:hover{
+    border: 1px solid gainsboro;
+}
+#text-area{
+    height: 30px;
+    width: 500px;
+    resize: none;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 5px;
+    
+}
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #dadce0;
+    height: 50px;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-side1{
+    display: flex;
+    gap: 23px;
+    
+}
+.right-side1{
+    display: flex;
+    gap: 23px;
+}   
+.last-container a{
+    text-decoration: none;
+    color: #202124;
+}
+.turk{
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+   
+}
+.x-button{
+    display: none;
+}
+
+.top-text a:hover{
+    border-radius: 50%;
+}
